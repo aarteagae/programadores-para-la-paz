@@ -1,0 +1,8 @@
+Repositorio:
+Es el espacio o carpeta virtual donde se almacena y organiza todo el proyecto, incluyendo el historial completo de archivos y sus modificaciones a lo largo del tiempo. Puede ser local (guardado en tu computadora) o remoto (alojado en una plataforma en la nube como GitHub) para permitir el trabajo colaborativo.
+
+Commit:
+Es un registro o "foto instantánea" que guarda de manera permanente los cambios realizados en los archivos en un momento específico. Cada commit funciona como un punto de control en el historial del proyecto, acompañado de un mensaje descriptivo que explica qué se modificó y por qué.
+
+Push:
+Es el comando que se utiliza para transferir y subir los commits guardados localmente desde tu computadora hacia el repositorio remoto en GitHub. Su función principal es actualizar el proyecto en la nube para que los cambios estén respaldados de forma segura y disponibles para los demás miembros del equipo.
