@@ -1,0 +1,9 @@
+El dominio de la terminal es una habilidad fundamental para cualquier desarrollador, ya que proporciona
+una velocidad y eficiencia muy superiores a las de una interfaz gráfica convencional. Al utilizar la
+línea de comandos, es posible navegar por estructuras de carpetas complejas de forma casi instantánea,
+optimizando el flujo de trabajo diario. Además, permite gestionar y organizar archivos en lotes,
+automatizar tareas repetitivas mediante scripts y acceder directamente a herramientas del sistema de
+manera precisa, esta competencia se vuelve indispensable al trabajar en servidores remotos o entornos
+de desarrollo avanzados donde las interfaces visuales no están disponibles. En definitiva, saber usar
+la terminal no solo mejora la productividad individual, sino que establece las bases técnicas necesarias
+para comprender el funcionamiento interno del sistema operativo y colaborar profesionalmente en proyectos masivos.
