@@ -1,0 +1,22 @@
+"Prueba 1"
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+Envía los datos del problema y el servidor responde confirmando que el reporte fue registrado con éxito, devolviéndo el caso con un id único ya asignado
+"Prueba 2"
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+Consulta la ruta y el servidor devuelve la lista de todos los reportes guardados (por eso los corchetes []). Aquí se comprueba que el reporte de la Prueba 1 se guardó y se puede recuperar correctamente.

@@ -1,0 +1,9 @@
+No exponer datos personales: Ocultar correos, teléfonos o direcciones exactas de los vecinos en los reportes públicos.
+
+Proteger credenciales: Exigir contraseñas seguras y activar la verificación en dos pasos (2FA) para los administradores.
+
+Usar conexiones seguras: Utilizar cifrado https:// para que nadie pueda interceptar la información enviada a la plataforma.
+
+Registrar accesos: Guardar un historial (logs) de quién entra y qué cambios hace en el sistema para detectar movimientos sospechosos.
+
+Limitar acceso a información sensible: Configurar roles de usuario para que cada persona (vecino, moderador o técnico) solo vea lo estrictamente necesario.
