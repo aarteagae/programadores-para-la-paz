@@ -1,0 +1,18 @@
+DISEÑO DEL FLUJO DE AUTOMATIZACIÓN
+
+1. ¿Qué evento activa el flujo?
+La activación se produce cuando un usuario envía el formulario con un nuevo reporte (por ejemplo, a través de un webhook de n8n conectado a un formulario web, Tally, o una nueva fila en una hoja de datos no sensible).
+
+2. ¿Qué mensaje se enviaría a Telegram?
+"¡Atención Equipo de Veeduría! Se ha registrado un nuevo reporte comunitario.
+- Categoría: [Categoría del problema]
+- ID de Seguimiento: [ID asignado]
+Por favor, ingresen al panel de gestión interno para procesar este caso."
+
+3. ¿Qué información no debería enviarse por seguridad?
+Por razones estrictas de privacidad y seguridad, bajo ninguna circunstancia se enviará a través del canal de Telegram:
+- Nombres o apellidos del denunciante.
+- Números de identificación, cédula o pasaporte.
+- Dirección residencial exacta del ciudadano (se usará solo una referencia general de la zona o barrio).
+- Números telefónicos o correos electrónicos personales.
+- Archivos o fotos adjuntas que muestren rostros o identidades sin el debido consentimiento.

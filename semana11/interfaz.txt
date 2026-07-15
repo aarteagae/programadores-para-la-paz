@@ -1,0 +1,13 @@
+DISEÑO DE INTERFAZ BÁSICA (Estructura de la Plataforma)
+
+1. Vista de causas disponibles (Página Principal):
+Presenta un tablero de tarjetas (cards) simples y limpias. Cada tarjeta expone el título de la causa, una descripción breve, la categoría y la fecha de publicación. No muestra información privada del creador.
+
+2. Formulario para crear una causa:
+Un formulario minimalista y directo al grano, accesible solo para usuarios autenticados. Contiene tres campos clave: "Título de la Causa", "Descripción de la Iniciativa" y un botón destacado que indica "Publicar Causa".
+
+3. Botón para apoyar una causa:
+Cada tarjeta de la página principal cuenta con un botón interactivo representado con un ícono (como un pulgar arriba o un corazón) y la etiqueta clara de "Apoyar Causa".
+
+4. Contador de apoyos:
+Al lado del botón de apoyo, se incluye un pequeño badge visual que muestra dinámicamente el total acumulado de apoyos (ej. "🔥 24 apoyos"). Este se actualiza en tiempo real al hacer clic en el botón, sin recargar la página completa.

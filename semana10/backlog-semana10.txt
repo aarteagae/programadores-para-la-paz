@@ -1,0 +1,13 @@
+HISTORIAS DE USUARIO (Ordenadas de Mayor a Menor Prioridad)
+
+[Prioridad Alta]
+1. Como ciudadano, quiero reportar una incidencia de infraestructura (ej. bache, luminaria rota) mediante un formulario sencillo para alertar a la comunidad de un peligro.
+
+[Prioridad Media-Alta]
+2. Como coordinador del grupo vecinal, quiero recibir una alerta automática en Telegram cuando se registre un nuevo reporte para iniciar la revisión del caso de inmediato.
+
+[Prioridad Media]
+3. Como veedor comunitario, quiero ver una lista pública de todos los reportes activos para poder darles seguimiento físico y coordinar acciones con la municipalidad.
+
+[Prioridad Baja]
+4. Como ciudadano, quiero visualizar un historial de reportes ya solucionados para verificar la efectividad de las gestiones colectivas y mantener la motivación.

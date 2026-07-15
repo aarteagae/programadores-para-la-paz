@@ -1,0 +1,19 @@
+DISEÑO DE AUTOMATIZACIÓN COMUNITARIA
+
+1. ¿Qué evento activa la automatización?
+El flujo de automatización en n8n es activado mediante un webhook interno que escucha en el backend. Se dispara de forma inmediata en el momento preciso en que un ciudadano presiona el botón "Apoyar Causa" en la plataforma y el apoyo se registra exitosamente en la base de datos.
+
+2. ¿Qué mensaje se envía?
+"¡Un nuevo ciudadano ha respaldado una iniciativa vecinal!
+- Causa Apoyada: [Título de la Causa]
+- ID de Seguimiento de la Causa: #[ID_Causa]
+- Total de Apoyos actuales: [Contador_Total_Apoyos] apoyos acumulados.
+¡Sigamos sumando esfuerzos por nuestra comunidad!"
+
+3. ¿Qué información NO debe enviarse por seguridad?
+Por políticas de ciberseguridad, confidencialidad y para blindar a los ciudadanos partícipes de cualquier tipo de riesgo, queda estrictamente prohibido transmitir por Telegram:
+- Nombres completos o apellidos reales de las personas que apoyaron.
+- Números de documento de identidad (cédulas, pasaportes).
+- Correos electrónicos de contacto personales.
+- Direcciones físicas o geolocalización exacta de los domicilios de los firmantes.
+- Información de tokens de sesión, cookies o contraseñas del usuario.

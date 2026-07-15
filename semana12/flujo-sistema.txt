@@ -1,0 +1,16 @@
+FLUJO DE SISTEMA - "PETICIÓN EN 3 CLICS"
+
+1. Creación de la causa comunitaria:
+Un ciudadano (previamente autenticado) inicia el proceso ingresando a la plataforma y registrando una nueva causa legítima completando un formulario estructurado con título, descripción y fundamentación.
+
+2. Almacenamiento e indexación en base de datos:
+La plataforma recibe la petición de creación, valida que los campos sean correctos y almacena la causa en la base de datos de manera segura, asignándole un ID único de seguimiento y publicándola automáticamente en el catálogo común de la interfaz.
+
+3. Recolección de apoyos vecinales con un solo clic:
+Los miembros de la comunidad ingresan al catálogo público, revisan la propuesta y, si están de acuerdo, hacen clic en el botón "Apoyar". El sistema verifica que el usuario no haya apoyado previamente esta misma causa para evitar duplicidades de firmas virtuales.
+
+4. Monitoreo, actualización de contadores y notificaciones automáticas:
+El sistema actualiza en tiempo real el contador público de respaldos de la causa en la interfaz y ejecuta un webhook para disparar alertas inmediatas en el canal de Telegram del equipo coordinador, informando sobre el avance del apoyo ciudadano.
+
+5. Clic final: Compilación y generación automática de la Petición Formal (PDF):
+Una vez se alcanza una meta preestablecida de apoyos, o de manera manual por parte del coordinador, el sistema procesa los datos en el backend, genera un documento PDF formal con el membrete comunitario, la descripción del problema, la fecha, y el número total de respaldos validados, quedando listo para ser descargado y radicado físicamente o de manera digital ante las entidades pertinentes.

@@ -1,0 +1,14 @@
+PLAN DE ITERACIÓN (Sprint 1)
+
+1. ¿Qué 2 tareas del backlog harías primero?
+- Tarea 1: Como ciudadano, quiero reportar una incidencia de infraestructura mediante un formulario sencillo.
+- Tarea 2: Como coordinador del grupo vecinal, quiero recibir una alerta automática en Telegram cuando se registre un nuevo reporte.
+
+2. ¿Por qué son las más importantes?
+Porque representan el "Mínimo Producto Viable" (MVP) de nuestra solución de veeduría. Sin la capacidad de reportar (Tarea 1), no tenemos datos que procesar ni problemas que resolver. Y sin la alerta instantánea (Tarea 2), el equipo de coordinación no sabrá que hay trabajo pendiente. Al priorizar estas dos tareas, logramos conectar al ciudadano con el gestor desde el primer día.
+
+3. ¿Qué significa para ti que una tarea esté “terminada”? (Definition of Done)
+Para considerar que una funcionalidad está completada, debe cumplir con los siguientes 3 criterios:
+- Funciona: La funcionalidad corre perfectamente de extremo a extremo sin errores críticos.
+- Fue probada: Se realizaron pruebas manuales completas simulando el uso de un ciudadano real y el flujo de la alerta.
+- Quedó registrada en Git: El código y las configuraciones están guardados, limpios de credenciales sensibles, y subidos a la rama principal de GitHub.
